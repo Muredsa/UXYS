@@ -1,5 +1,5 @@
 name: Skill bug / regression
-about: Report UXYS behavior that contradicts the documented method
+description: Report UXYS behavior that contradicts the documented method
 title: "[Bug] "
 body:
   - type: textarea
