@@ -1,0 +1,37 @@
+name: Skill bug / regression
+about: Report UXYS behavior that contradicts the documented method
+title: "[Bug] "
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Interface context
+      description: URL, screenshot description, page type, or minimal reproduction. Do not include private data.
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Request given to the agent
+      description: Paste the user request or a minimal equivalent.
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual UXYS result
+      description: What did the skill conclude or recommend?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+      description: Explain which UXYS invariant or route interpretation should have applied.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: UXYS version
+      placeholder: "0.1.0"
