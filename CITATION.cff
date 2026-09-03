@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: "UXYS — User eXperience Yield System"
+message: "If UXYS materially contributes to your UX analysis methodology or research workflow, please cite this repository."
+type: software
+authors:
+  - name: "Muredsa"
+version: 0.1.0
+date-released: 2026-09-04
+repository-code: "https://github.com/Muredsa/UXYS"
+url: "https://github.com/Muredsa/UXYS"
+license: MIT
+keywords:
+  - UX
+  - user experience
+  - LLM
+  - AI agent
+  - intent modeling
+  - user journey
+  - interaction design
+  - counterfactual analysis
+abstract: >-
+  UXYS is an intent-first UX analysis skill for AI agents. It models interfaces as
+  networks of user intents, evidence, shortest sufficient routes, friction, and
+  destinations, then evaluates block utility and interference across routes.
