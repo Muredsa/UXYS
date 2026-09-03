@@ -1,0 +1,33 @@
+name: Method improvement
+about: Propose a concrete improvement to the UXYS reasoning method
+title: "[Method] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        UXYS changes should start from a demonstrated reasoning problem, not a generic UX best-practice request.
+  - type: textarea
+    id: failure
+    attributes:
+      label: Current failure mode
+      description: What page/interface situation does UXYS reason about incorrectly or unclearly?
+      placeholder: Describe the intent, page evidence, current conclusion, and why it is wrong.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected UXYS behavior
+      description: What should the method conclude instead?
+    validations:
+      required: true
+  - type: textarea
+    id: architecture
+    attributes:
+      label: Suggested method change
+      description: How should the change fit Intent → Evidence → Shortest sufficient route → Friction → Destination?
+  - type: textarea
+    id: eval
+    attributes:
+      label: Regression case
+      description: Provide a compact case that could be added to evals/cases.md.
