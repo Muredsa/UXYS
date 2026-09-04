@@ -31,6 +31,7 @@ REQUIRED = [
 
 SEMVER = re.compile(r"^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)$")
 LINK = re.compile(r"\[[^\]]*\]\(([^)]+)\)")
+ALLOWED_FRONTMATTER_KEYS = {"name", "description"}
 
 
 def fail(message: str) -> None:
@@ -81,8 +82,38 @@ def parse_frontmatter(text: str) -> dict[str, str]:
             continue
         if ":" not in line:
             fail(f"Unsupported SKILL.md frontmatter line: {line!r}")
-        key, value = line.split(":", 1)
-        result[key.strip()] = value.strip().strip('"').strip("'")
+
+        key, raw_value = line.split(":", 1)
+        key = key.strip()
+        raw_value = raw_value.strip()
+
+        if key not in ALLOWED_FRONTMATTER_KEYS:
+            fail(f"Unsupported SKILL.md frontmatter key: {key!r}")
+        if key in result:
+            fail(f"Duplicate SKILL.md frontmatter key: {key!r}")
+        if not raw_value:
+            fail(f"Empty SKILL.md frontmatter value for {key!r}")
+
+        if raw_value.startswith('"'):
+            if len(raw_value) < 2 or not raw_value.endswith('"'):
+                fail(f"Unclosed double-quoted YAML scalar for {key!r}")
+            value = raw_value[1:-1]
+        elif raw_value.startswith("'"):
+            if len(raw_value) < 2 or not raw_value.endswith("'"):
+                fail(f"Unclosed single-quoted YAML scalar for {key!r}")
+            value = raw_value[1:-1]
+        else:
+            # In a YAML plain scalar, ': ' is a mapping delimiter and must be quoted.
+            # This exact bug caused v0.1.0 to pass our old parser while strict registries
+            # correctly rejected the frontmatter as invalid YAML.
+            if ": " in raw_value:
+                fail(
+                    f"Invalid unquoted YAML scalar for {key!r}: values containing ': ' must be quoted"
+                )
+            value = raw_value
+
+        result[key] = value
+
     return result
 
 
