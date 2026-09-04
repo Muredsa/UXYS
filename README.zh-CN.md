@@ -4,7 +4,7 @@
 >
 > UXYS 教会 LLM 把界面理解为由用户意图、证据、最短充分路径、摩擦与目标状态组成的网络，而不是输出一套通用的 UX 检查清单。
 
-[![Version](https://img.shields.io/badge/version-0.1.0-2f6feb?style=flat-square)](VERSION)
+[![Version](https://img.shields.io/badge/version-0.1.1-2f6feb?style=flat-square)](VERSION)
 [![Skill validation](https://github.com/Muredsa/UXYS/actions/workflows/validate.yml/badge.svg)](https://github.com/Muredsa/UXYS/actions/workflows/validate.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 [![Codex Skill](https://img.shields.io/badge/Codex-SKILL.md-111827?style=flat-square)](SKILL.md)
