@@ -8,6 +8,7 @@
 [![Skill validation](https://github.com/Muredsa/UXYS/actions/workflows/validate.yml/badge.svg)](https://github.com/Muredsa/UXYS/actions/workflows/validate.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 [![Codex Skill](https://img.shields.io/badge/Codex-SKILL.md-111827?style=flat-square)](SKILL.md)
+<a href="https://www.claudemarket.ai/skills"><img src="https://www.claudemarket.ai/badge-claudemarket.svg" alt="Listed on Claude Market" width="190" height="44" /></a>
 
 [English](README.md) · [Русский](README.ru.md) · **简体中文**
 
