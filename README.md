@@ -9,6 +9,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 [![Codex Skill](https://img.shields.io/badge/Codex-SKILL.md-111827?style=flat-square)](SKILL.md)
 [![Languages](https://img.shields.io/badge/docs-EN%20%7C%20RU%20%7C%20中文-orange?style=flat-square)](#languages)
+<a href="https://www.claudemarket.ai/skills"><img src="https://www.claudemarket.ai/badge-claudemarket.svg" alt="Listed on Claude Market" width="190" height="44" /></a>
 
 **English** · [Русский](README.ru.md) · [简体中文](README.zh-CN.md)
 
