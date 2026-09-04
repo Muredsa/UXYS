@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/uxys-banner.svg" alt="UXYS — User eXperience Yield System" width="100%" />
+  <img src="assets/uxys-banner-ru.svg" alt="UXYS — User eXperience Yield System" width="100%" />
 </p>
 
 <p align="center">
