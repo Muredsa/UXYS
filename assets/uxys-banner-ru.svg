@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 420" role="img" aria-labelledby="title desc">
+  <title id="title">UXYS — User eXperience Yield System</title>
+  <desc id="desc">Анимированный баннер UXYS: Намерение, Доказательства, Кратчайший достаточный путь, Трение, Цель.</desc>
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" class="grid-dot"/></pattern>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="8" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" class="arrow-fill"/></marker>
+    <style>
+      .bg{fill:#f7f6f1}.panel{fill:#fbfaf6;stroke:#d9d7cf}.fg{fill:#111315}.muted{fill:#666a70}.grid-dot{fill:#d8d6cf}.flow{stroke:#9aa0a6}.lime{fill:#c7ff19}.arrow-fill{fill:#292c30}.node{fill:#fbfaf6;stroke:#cbc9c1}.route-node{fill:#f1ffd0;stroke:#a6d900}.runner{fill:#c7ff19;stroke:#111315}.pill{fill:#111315}.pill-text{fill:#f7f6f1}
+      text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Arial,sans-serif}
+      @media (prefers-color-scheme: dark){.bg{fill:#0d0f11}.panel{fill:#131619;stroke:#30343a}.fg{fill:#f4f5ef}.muted{fill:#a4a8ae}.grid-dot{fill:#252a2f}.flow{stroke:#626970}.arrow-fill{fill:#d8dbe0}.node{fill:#15191d;stroke:#373c42}.route-node{fill:#1d2a10;stroke:#c7ff19}.runner{stroke:#f4f5ef}.pill{fill:#f4f5ef}.pill-text{fill:#111315}}
+    </style>
+  </defs>
+  <rect width="1600" height="420" rx="28" class="bg"/>
+  <rect x="18" y="18" width="1564" height="384" rx="24" class="panel"/>
+  <rect x="18" y="18" width="1564" height="384" rx="24" fill="url(#grid)" opacity=".45"/>
+
+  <g transform="translate(72 64)">
+    <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -4;0 0" dur="4s" repeatCount="indefinite"/><rect x="0" y="0" width="70" height="70" rx="18" class="lime"/><path d="M18 18 L35 35 L52 18 M18 52 L35 35 L52 52" fill="none" stroke="#111315" stroke-width="9" stroke-linecap="round"/></g>
+    <text x="94" y="47" font-size="58" font-weight="800" class="fg" letter-spacing="2">UXYS</text>
+    <text x="96" y="78" font-size="19" font-weight="650" class="muted" letter-spacing=".7">User eXperience Yield System</text>
+  </g>
+
+  <g transform="translate(72 184)">
+    <rect x="0" y="0" width="8" height="74" rx="4" class="lime"/>
+    <text x="28" y="32" font-size="30" font-weight="750" class="fg">Интент-ориентированный UX-анализ для AI-агентов</text>
+    <text x="28" y="63" font-size="20" class="muted">Сначала намерения и маршруты — потом выводы по блокам интерфейса.</text>
+  </g>
+
+  <g transform="translate(1210 70)">
+    <rect width="296" height="42" rx="21" class="pill"/>
+    <circle cx="22" cy="21" r="6" class="lime"><animate attributeName="opacity" values=".45;1;.45" dur="2s" repeatCount="indefinite"/></circle>
+    <text x="39" y="27" font-size="14" font-weight="750" class="pill-text" letter-spacing="1">ОТКРЫТАЯ МЕТОДОЛОГИЯ · v0.1.1</text>
+  </g>
+
+  <g transform="translate(72 302)">
+    <path d="M86 36 H1370" fill="none" class="flow" stroke-width="2" stroke-dasharray="10 12" marker-end="url(#arrow)"><animate attributeName="stroke-dashoffset" from="0" to="-44" dur="1.6s" repeatCount="indefinite"/></path>
+    <circle r="8" class="runner" filter="url(#softGlow)"><animateMotion dur="7s" repeatCount="indefinite" path="M86 36 H1370"/></circle>
+    <g transform="translate(0 0)"><rect width="190" height="72" rx="18" class="node"/><circle cx="28" cy="36" r="10" class="lime"/><text x="48" y="43" font-size="17" font-weight="800" class="fg">НАМЕРЕНИЕ</text></g>
+    <g transform="translate(250 0)"><rect width="220" height="72" rx="18" class="node"/><circle cx="28" cy="36" r="10" class="lime"/><text x="48" y="43" font-size="16" font-weight="800" class="fg">ДОКАЗАТЕЛЬСТВА</text></g>
+    <g transform="translate(520 -6)"><rect width="390" height="84" rx="21" class="route-node" stroke-width="2"><animate attributeName="stroke-opacity" values=".35;1;.35" dur="2.8s" repeatCount="indefinite"/></rect><text x="195" y="34" text-anchor="middle" font-size="14" font-weight="800" class="muted" letter-spacing=".5">КРАТЧАЙШИЙ</text><text x="195" y="59" text-anchor="middle" font-size="19" font-weight="850" class="fg">ДОСТАТОЧНЫЙ ПУТЬ</text></g>
+    <g transform="translate(964 0)"><rect width="176" height="72" rx="18" class="node"/><circle cx="28" cy="36" r="10" class="lime"/><text x="48" y="43" font-size="18" font-weight="800" class="fg">ТРЕНИЕ</text></g>
+    <g transform="translate(1204 0)"><rect width="196" height="72" rx="18" class="node"/><circle cx="28" cy="36" r="10" class="lime"/><text x="48" y="43" font-size="18" font-weight="800" class="fg">ЦЕЛЬ</text></g>
+  </g>
+</svg>
