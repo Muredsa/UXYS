@@ -1,7 +1,6 @@
 ---
 name: uxys
-description: Analyze or redesign a web interface with the UXYS intent-first method: multiple visitor intents, shortest sufficient routes, evidence, friction, cross-intent utility, and block-level actions. Use for UX audits, landing pages, product pages, dashboards, onboarding, checkout, screenshots, or live websites.
-argument-hint: "[URL, screenshot, page, flow, or interface scope]"
+description: "Intent-first UX analysis for websites and visual interfaces. Use when the user asks to analyze, audit, critique, redesign, simplify, or improve UX; model multiple visitor intents, shortest sufficient routes, evidence, friction, cross-intent utility, and concrete block-level actions."
 ---
 
 # UXYS — User eXperience Yield System
