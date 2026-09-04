@@ -4,7 +4,7 @@
 >
 > UXYS учит LLM анализировать интерфейс как сеть пользовательских намерений, доказательств, кратчайших достаточных маршрутов, трения и конечных целей — вместо обычного шаблонного UX-чеклиста.
 
-[![Version](https://img.shields.io/badge/version-0.1.0-2f6feb?style=flat-square)](VERSION)
+[![Version](https://img.shields.io/badge/version-0.1.1-2f6feb?style=flat-square)](VERSION)
 [![Skill validation](https://github.com/Muredsa/UXYS/actions/workflows/validate.yml/badge.svg)](https://github.com/Muredsa/UXYS/actions/workflows/validate.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 [![Codex Skill](https://img.shields.io/badge/Codex-SKILL.md-111827?style=flat-square)](SKILL.md)
