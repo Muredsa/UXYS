@@ -4,7 +4,7 @@ message: "If UXYS materially contributes to your UX analysis methodology or rese
 type: software
 authors:
   - name: "Muredsa"
-version: 0.1.0
+version: 0.1.1
 date-released: 2026-09-04
 repository-code: "https://github.com/Muredsa/UXYS"
 url: "https://github.com/Muredsa/UXYS"
