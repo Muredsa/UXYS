@@ -12,6 +12,13 @@ The project follows [Semantic Versioning](https://semver.org/). While the projec
 - More counterfactual redesign cases.
 - Observed-vs-predicted validation patterns.
 
+## [0.1.1] - 2026-09-04
+
+### Fixed
+
+- Fixed `SKILL.md` YAML frontmatter for strict skill registries by quoting the description and keeping only portable `name` / `description` metadata.
+- Hardened the zero-dependency validator so invalid unquoted `: ` YAML scalars and unsupported frontmatter keys cannot silently pass CI again.
+
 ## [0.1.0] - 2026-09-04
 
 ### Added
@@ -29,5 +36,6 @@ The project follows [Semantic Versioning](https://semver.org/). While the projec
 - English, Russian, and Simplified Chinese public documentation.
 - Semantic version file and automated repository validation.
 
-[Unreleased]: https://github.com/Muredsa/UXYS/compare/main...HEAD
-[0.1.0]: https://github.com/Muredsa/UXYS
+[Unreleased]: https://github.com/Muredsa/UXYS/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/Muredsa/UXYS/compare/v0.1.0...v0.1.1
+[0.1.0]: https://github.com/Muredsa/UXYS/releases/tag/v0.1.0
