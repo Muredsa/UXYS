@@ -1,16 +1,28 @@
-# UXYS — User eXperience Yield System
+<p align="center">
+  <img src="assets/uxys-banner.svg" alt="UXYS — User eXperience Yield System" width="100%" />
+</p>
 
-> **面向 AI Agent 的意图优先 UX 分析方法。**
->
-> UXYS 教会 LLM 把界面理解为由用户意图、证据、最短充分路径、摩擦与目标状态组成的网络，而不是输出一套通用的 UX 检查清单。
+<p align="center">
+  <strong>面向 AI Agent 的意图优先 UX 分析方法。</strong><br/>
+  将界面建模为由短而充分的用户路径组成的网络，而不是输出通用 UX 检查清单。
+</p>
 
-[![Version](https://img.shields.io/badge/version-0.1.1-2f6feb?style=flat-square)](VERSION)
-[![Skill validation](https://github.com/Muredsa/UXYS/actions/workflows/validate.yml/badge.svg)](https://github.com/Muredsa/UXYS/actions/workflows/validate.yml)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
-[![Codex Skill](https://img.shields.io/badge/Codex-SKILL.md-111827?style=flat-square)](SKILL.md)
-<a href="https://www.claudemarket.ai/skills"><img src="https://www.claudemarket.ai/badge-claudemarket.svg" alt="Listed on Claude Market" width="190" height="44" /></a>
+<p align="center">
+  <a href="VERSION"><img src="https://img.shields.io/badge/version-0.1.1-2f6feb?style=flat-square" alt="Version 0.1.1" /></a>
+  <a href="https://github.com/Muredsa/UXYS/actions/workflows/validate.yml"><img src="https://github.com/Muredsa/UXYS/actions/workflows/validate.yml/badge.svg" alt="Validate skill" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT License" /></a>
+  <a href="SKILL.md"><img src="https://img.shields.io/badge/AI%20Skill-SKILL.md-111827?style=flat-square" alt="AI Skill" /></a>
+</p>
 
-[English](README.md) · [Русский](README.ru.md) · **简体中文**
+<p align="center">
+  <a href="README.md">English</a> ·
+  <a href="README.ru.md">Русский</a> ·
+  <a href="README.zh-CN.md"><strong>简体中文</strong></a>
+</p>
+
+<p align="center">
+  <a href="https://www.claudemarket.ai/skills"><img src="https://www.claudemarket.ai/badge-claudemarket.svg" alt="Listed on Claude Market" height="34" /></a>
+</p>
 
 ---
 
