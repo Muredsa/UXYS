@@ -1,17 +1,28 @@
-# UXYS — User eXperience Yield System
+<p align="center">
+  <img src="assets/uxys-banner.svg" alt="UXYS — User eXperience Yield System" width="100%" />
+</p>
 
-> **Intent-first UX analysis for AI agents.**
->
-> UXYS teaches an LLM to analyze an interface as a network of user intents, evidence, shortest sufficient routes, friction, and destinations — instead of producing a generic UX checklist.
+<p align="center">
+  <strong>Intent-first UX analysis for AI agents.</strong><br/>
+  Model interfaces as networks of short, sufficient user routes — not generic UX checklists.
+</p>
 
-[![Version](https://img.shields.io/badge/version-0.1.1-2f6feb?style=flat-square)](VERSION)
-[![Skill validation](https://github.com/Muredsa/UXYS/actions/workflows/validate.yml/badge.svg)](https://github.com/Muredsa/UXYS/actions/workflows/validate.yml)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
-[![Codex Skill](https://img.shields.io/badge/Codex-SKILL.md-111827?style=flat-square)](SKILL.md)
-[![Languages](https://img.shields.io/badge/docs-EN%20%7C%20RU%20%7C%20中文-orange?style=flat-square)](#languages)
-<a href="https://www.claudemarket.ai/skills"><img src="https://www.claudemarket.ai/badge-claudemarket.svg" alt="Listed on Claude Market" width="190" height="44" /></a>
+<p align="center">
+  <a href="VERSION"><img src="https://img.shields.io/badge/version-0.1.1-2f6feb?style=flat-square" alt="Version 0.1.1" /></a>
+  <a href="https://github.com/Muredsa/UXYS/actions/workflows/validate.yml"><img src="https://github.com/Muredsa/UXYS/actions/workflows/validate.yml/badge.svg" alt="Validate skill" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT License" /></a>
+  <a href="SKILL.md"><img src="https://img.shields.io/badge/AI%20Skill-SKILL.md-111827?style=flat-square" alt="AI Skill" /></a>
+</p>
 
-**English** · [Русский](README.ru.md) · [简体中文](README.zh-CN.md)
+<p align="center">
+  <a href="README.md"><strong>English</strong></a> ·
+  <a href="README.ru.md">Русский</a> ·
+  <a href="README.zh-CN.md">简体中文</a>
+</p>
+
+<p align="center">
+  <a href="https://www.claudemarket.ai/skills"><img src="https://www.claudemarket.ai/badge-claudemarket.svg" alt="Listed on Claude Market" height="34" /></a>
+</p>
 
 ---
 
